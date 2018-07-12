@@ -1,0 +1,567 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wi",
+				"wid\twidows"
+			],
+			[
+				"tran",
+				"translateY()"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"cel",
+				"cell-total"
+			],
+			[
+				"pr",
+				"placeholder\tAttr"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"de",
+				"devDependencies"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"da",
+				"dataForm"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"data",
+				"dataForm"
+			],
+			[
+				"scro",
+				"scrollTop\t.scrollTop()"
+			],
+			[
+				"off",
+				"offset\t.offset()"
+			],
+			[
+				"getHomeIn",
+				"getHomeInfoSucc"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"te",
+				"template\tTag"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"tex",
+				"text-decoration-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"controll",
+				"controllers"
+			],
+			[
+				"的",
+				"的第二次回调"
+			],
+			[
+				"Vm",
+				"vm.Script"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inp",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"pinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"ht",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			],
+			[
+				"",
+				"Install Package Control"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/project/jianshu/src/store/reducer.js",
+		"/I/project/jianshu/src/common/header/index.js",
+		"/I/project/jianshu/src/App.js",
+		"/I/project/jianshu/src/common/header/style.js",
+		"/I/project/jianshu/package.json",
+		"/I/project/jianshu/src/store/index.js",
+		"/I/project/jianshu/src/static/iconfont/iconfont.js",
+		"/I/project/jianshu/src/index.js",
+		"/I/project/jianshu/src/static/iconfont/iconfont.css",
+		"/I/project/jianshu/src/static/iconfont/icon",
+		"/I/project/jianshu/src/style.js",
+		"/I/project/jianshu/src/App.css",
+		"/I/project/clj.github.io/js/public/public.js",
+		"/I/project/clj.github.io/about.html",
+		"/I/project/clj.github.io/css/index.css",
+		"/I/project/clj.github.io/css/layout.css",
+		"/I/project/clj.github.io/js/index.js",
+		"/I/project/clj.github.io/index.html",
+		"/I/project/clj.github.io/contact.html",
+		"/I/project/clj.github.io/css/contact.css",
+		"/I/project/clj.github.io/css/about.css",
+		"/I/project/clj.github.io/js/public.js/public.js",
+		"/I/project/PersonalWeb/src/css/about.scss",
+		"/I/project/PersonalWeb/src/view/index/page-six.html",
+		"/I/project/PersonalWeb/src/view/index/page-five.html",
+		"/I/project/PersonalWeb/src/view/index/page-four.html",
+		"/I/project/PersonalWeb/src/view/index/page-three.html",
+		"/I/project/PersonalWeb/src/view/index/page-two.html",
+		"/I/project/PersonalWeb/src/css/common/property.scss",
+		"/I/project/clj.github.io/css/public.css",
+		"/I/project/PersonalWeb/src/css/index/page-five.scss",
+		"/I/project/PersonalWeb/src/css/index/page-four.scss",
+		"/I/project/task/src/store/mutations/mutations.js",
+		"/I/project/task/src/store/state/state.js",
+		"/I/project/smallMall/src/pages/user/user.vue",
+		"/I/project/smallMall/src/App.vue",
+		"/I/project/task/.babelrc",
+		"/I/project/task/src/store/store.js",
+		"/I/project/task/src/store/getters/getters.js",
+		"/I/project/task/src/store/state.js",
+		"/I/project/smallMall/src/store/actions/actions.js",
+		"/I/project/smallMall/src/store/mutations/mutations.js",
+		"/I/project/smallMall/src/store/state/state.js",
+		"/I/project/smallMall/src/store/mutations/mutations",
+		"/I/project/task/server/server.template.ejs",
+		"/I/project/task/server/routers/server-render.js",
+		"/I/project/task/server/routers/ssr.js",
+		"/I/project/task/src/config/router.js",
+		"/I/project/task/package.json",
+		"/I/project/task/server/server.js",
+		"/I/project/task/server/routers/dev-ssr.js",
+		"/I/project/task/build/webpack.config.client.js",
+		"/I/project/task/src/create-app.js",
+		"/I/project/task/src/server-entry.js",
+		"/C/Users/clj/Desktop/d322om/package.json",
+		"/I/project/task/.gitignore",
+		"/I/project/vuetodo/build/webpack.config.client.js",
+		"/I/project/vuetodo/build/webpack.config.practice.js",
+		"/I/project/vuetodo/build/webpack.config.server.js",
+		"/I/project/vuetodo/build/webpack.config.base.js",
+		"/I/project/vuetodo/package.json",
+		"/I/project/vuetodo/.project",
+		"/I/project/vuetodo/src/index.js",
+		"/I/project/vuetodo/.babelrc",
+		"/I/project/vuetodo/.eslintrc",
+		"/I/project/vuetodo/src/server-entry.js",
+		"/I/project/vuetodo/webpack.config.js",
+		"/I/project/vuetodo/postcss.config.js",
+		"/I/project/vuetodo/src/views/todo/todo.vue",
+		"/I/project/vuetodo/src/views/layout/header.vue",
+		"/I/project/vuetodo/src/views/todo/tabs.vue",
+		"/I/project/vuetodo/src/views/todo/item.vue",
+		"/C/Users/clj/Desktop/d322om/.eslintrc",
+		"/I/project/smallMall/src/pages/user/order-list/components/order-con.vue",
+		"/I/project/smallMall/src/pages/user/order-info/order-info.vue",
+		"/I/project/vuetodo/.editorconfig",
+		"/I/project/smallMall/src/pages/user/order-info/components/info-con.vue",
+		"/I/project/smallMall/src/pages/user/order-info/components/order-table.vue",
+		"/I/project/smallMall/src/router/router.js",
+		"/I/project/smallMall/src/pages/user/order-detail/order-detail.vue",
+		"/I/project/vuetodo/src/app.vue",
+		"/I/project/vuetodo/build/vue-loader.config.js",
+		"/I/project/vuetodo/src/views/layout/footer.jsx",
+		"/C/Users/clj/Desktop/d322om/client/views/todo/todo.vue",
+		"/C/Users/clj/Desktop/d322om/client/server-entry.js",
+		"/I/project/vuetodo/src/todo/todo.vue",
+		"/I/project/vuetodo/src/todo/item.vue",
+		"/I/project/smallMall/src/pages/user/info-update/info-update.vue",
+		"/I/project/smallMall/src/main.js",
+		"/I/project/smallMall/src/pages/user/my-info/my-info.vue",
+		"/I/project/smallMall/src/pages/register/register.vue",
+		"/I/project/smallMall/src/store/index.js",
+		"/I/project/smallMall/src/pages/login/login.vue",
+		"/I/project/smallMall/src/pages/forget-password/components/user-name.vue",
+		"/I/project/smallMall/src/pages/user/pass-update/pass-update.vue",
+		"/I/project/smallMall/src/pages/common/header.vue",
+		"/I/project/smallMall/src/pages/list/list.vue",
+		"/I/project/smallMall/src/assets/js/http.js",
+		"/I/project/smallMall/src/pages/index/index.vue",
+		"/I/project/smallMall/src/pages/forget-password/forget-password.vue",
+		"/I/project/smallMall/src/pages/forget-password/components/new-password.vue",
+		"/I/project/smallMall/src/pages/detail/components/sku.vue",
+		"/I/project/smallMall/src/pages/forget-password/components/question.vue",
+		"/I/project/smallMall/src/pages/list/components/list-con.vue",
+		"/I/project/smallMall/src/pages/forget-password/components/new-password",
+		"/I/project/smallMall/src/pages/forget-password/components/find-password",
+		"/I/project/smallMall/src/pages/forget-password/forget-password",
+		"/I/project/smallMall/src/assets/css/mixin.styl",
+		"/I/project/smallMall/src/assets/css/varibles.styl",
+		"/I/project/smallMall/src/router/index.js",
+		"/I/project/smallMall/src/pages/common/search.vue",
+		"/I/project/smallMall/build/webpack.base.conf.js",
+		"/I/project/smallMall/src/pages/user/order-list/order-list.vue",
+		"/I/project/smallMall/src/pages/list/components/list-page.vue",
+		"/I/project/smallMall/src/pages/user/order-list/component/order-con.vue",
+		"/I/project/smallMall/src/pages/user/order-list/components",
+		"/I/project/smallMall/src/pages/order/components/address.vue",
+		"/I/project/smallMall/src/pages/order/components/goods-list.vue",
+		"/I/project/smallMall/src/pages/payment/payment.vue",
+		"/I/project/smallMall/src/pages/order/order.vue",
+		"/I/project/smallMall/src/pages/order/components/address-com.vue",
+		"/I/project/smallMall/src/pages/order/style/address-com.styl",
+		"/I/project/smallMall/src/assets/js/comm.js",
+		"/I/project/smallMall/src/pages/cart/cart.vue",
+		"/I/project/smallMall/src/pages/detail/detail.vue",
+		"/I/project/smallMall/src/pages/index/components/banner.vue",
+		"/I/project/PersonalWeb/webpack.config.js",
+		"/I/project/PersonalWeb/package.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".slider-bar ul li",
+			".slide-meun .slider-bar ul li",
+			".page6-list li a",
+			".slide-meun",
+			"../../",
+			"province-list",
+			"webpack.config.js",
+			"city-select",
+			"  .",
+			"}",
+			";",
+			"{",
+			".user-con",
+			";",
+			"}",
+			"{",
+			".tab-list",
+			".detail-wrap",
+			";",
+			"{",
+			";",
+			";\n",
+			"}",
+			"{",
+			".intro-wrap ",
+			";",
+			";\n",
+			"\n    </div>",
+			".sort-item",
+			".sort-con",
+			"}",
+			"{",
+			";",
+			"import mui from ''",
+			"err-msg",
+			"password",
+			"name=\"\"",
+			"<div class=\"user-item\">\n              <label for=\"phone\" class=\"user-label\">\n                <i class=\"fa fa-phone\"></i>\n              </label>\n              <input class=\"user-content\" id=\"phone\" placeholder=\"请输入手机号\" autocomplete=\"off\"  name=\"\">\n            </div>\n            <div class=\"user-item\">\n              <label for=\"email\" class=\"user-label\">\n                <i class=\"fa fa-envelope\"></i>\n              </label>\n              <input class=\"user-content\" id=\"email\" placeholder=\"请输入邮箱\" autocomplete=\"off\"  name=\"\">\n            </div>\n            <div class=\"user-item\">\n              <label for=\"question\" class=\"user-label\">\n                <i class=\"fa fa-question\"></i>\n              </label>\n              <input class=\"user-content\" id=\"question\" placeholder=\"请输入密码提示问题\" autocomplete=\"off\" type=\"text\" name=\"\">\n            </div>\n            <div class=\"user-item\">\n              <label for=\"answer\" class=\"user-label\">\n                <i class=\"fa fa-key\"></i>\n              </label>\n              <input class=\"user-content\" id=\"answer\" placeholder=\"请输入密码提示问题答案\" autocomplete=\"off\"  name=\"\">\n            </div>\n            <a class=\"btn btn-submit\" id=\"submit\">立即注册</a>\n            <div class=\"link-item\">\n              <a class=\"link\"  target=\"blank\">已有账号，去登录>></a>\n            </div>\n          </div>",
+			"type=\"\"",
+			"floor2",
+			"goodsTit",
+			"{",
+			"}",
+			";",
+			"target=\"_blank\"",
+			"target",
+			"comm",
+			"DetailHeader",
+			"    \t\t\n",
+			"http",
+			"  \n",
+			"\t\t\t\n",
+			"();\n",
+			"()=>{\n",
+			");\n",
+			"\t\t\t\t\n",
+			"console.log(movie);",
+			");\n",
+			")\n",
+			");\n",
+			"\t\n",
+			"\t\t\t\t\t\n",
+			"\t  \t\t\n",
+			"remove",
+			");\n",
+			"\t\t\t\n",
+			" \n",
+			"\t\t\n",
+			"\n\t\t",
+			"\t\t\n",
+			"\t})",
+			"accepts",
+			"rquire",
+			" \n",
+			");\n",
+			"// 爬取两页的数据\n\tfor(let i = 0; i < 1; i++){\n\t\tawait sleep(3000);\n\t\tawait page.click('.more');\n\t}",
+			".\n",
+			"\"",
+			"3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
