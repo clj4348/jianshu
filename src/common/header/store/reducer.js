@@ -4,8 +4,11 @@ import { fromJS } from 'immutable'
  * immutable.js 不可变更的对象 管理 reducer
  */
 const defaultState = fromJS({
-  focused : false,
-  list: []
+  focused: false,
+  mouseIn: false,
+  list: [],
+  page: 1,
+  totalPage: 1
 });
 
 export default (state = defaultState, action) =>{
@@ -17,7 +20,17 @@ export default (state = defaultState, action) =>{
 		case constans.SEARCH_BLUR:
     	return state.set('focused', false);
     case constans.CHANGE_LIST:
-    	return state.set('list', action.data);
+    	// 同时改变多个数据内容
+    	return state.merge({
+    		'list': action.data,
+    		'totalPage': action.totalPage
+    	})
+   	case constans.MOUSER_ENTER:
+    	return state.set('mouseIn', true)
+    case constans.MOUSER_LEAVE:
+    	return state.set('mouseIn', false)
+    case constans.CHANGE_PAGE:
+    	return state.set('page', action.page)
     default:
     	return state;
   }
