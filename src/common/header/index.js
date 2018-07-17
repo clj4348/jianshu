@@ -1,27 +1,30 @@
-import React, { Component } from 'react';
+import React, {
+	Component
+} from 'react';
 import { connect } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import { actionCreators } from './store';
 import {
-  HeaderWrapper,
-  Logo,
-  Nav,
-  NavItem,
-  SearchWrapper,
-  NavSearch,
-  Addition,
-  Button,
-  SearchInfo,
-  SearchInfoTitle,
-  SearchInfoSwitch,
-  SearchInfoItem,
-  SearchInfoList
+	HeaderWrapper,
+	Logo,
+	Nav,
+	NavItem,
+	SearchWrapper,
+	NavSearch,
+	Addition,
+	Button,
+	SearchInfo,
+	SearchInfoTitle,
+	SearchInfoSwitch,
+	SearchInfoItem,
+	SearchInfoList
 } from './style';
 
-class Header extends Component{
+class Header extends Component {
 
-	getListArea(){
-		const {focused,
+	getListArea() {
+		const {
+			focused,
 			list,
 			page,
 			mouseIn,
@@ -30,19 +33,19 @@ class Header extends Component{
 			handleMouseLeave,
 			handleChangePage
 		} = this.props;
-		
+
 		const jsList = list.toJS(list);
 		const pageList = []; // 换一换的页数
-		if (jsList.length) {
-			for(let i = (page - 1)*10; i < page * 10;i++){
+		if(jsList.length) {
+			for(let i = (page - 1) * 10; i < page * 10; i++) {
 				pageList.push(
 					<SearchInfoItem key={ jsList[i] }>{jsList[i]}</SearchInfoItem>
 				)
 			}
 		}
-		
+
 		if(focused || mouseIn) {
-			return (
+			return(
 				<SearchInfo
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}>
@@ -61,17 +64,17 @@ class Header extends Component{
 		} else {
 			return null;
 		}
-}
-	
-	render(){
+	}
+
+	render() {
 		const {
 			focused,
 			handleInputFocus,
 			handleInputBlur,
 			list
 		} = this.props
-		return (
-	    <HeaderWrapper>
+		return(
+			<HeaderWrapper>
 	      <Logo href='/'/>
 	      <Nav>
 	        <NavItem className='left active'>首页</NavItem>
@@ -97,54 +100,53 @@ class Header extends Component{
 	        <Button className='reg'>注册</Button>
 	      </Addition>
 	    </HeaderWrapper>
-  	)
+		)
 	}
 }
 
-
 // 将数据映射到props中
 const mapStateToProps = (state) => {
-  return {
-  	// 获取对应的属性
-  	focused: state.getIn(['header','focused']),
-  	list: state.getIn(['header', 'list']),
-  	page: state.getIn(['header', 'page']),// 获取页码
-  	totalPage: state.getIn(['header', 'totalPage']),
-  	mouseIn: state.getIn(['header', 'mouseIn'])// 获取页码
-    // focused: state.get('header').get('focused')
-  }
+	return {
+		// 获取对应的属性
+		focused: state.getIn(['header', 'focused']),
+		list: state.getIn(['header', 'list']),
+		page: state.getIn(['header', 'page']), // 获取页码
+		totalPage: state.getIn(['header', 'totalPage']),
+		mouseIn: state.getIn(['header', 'mouseIn']) // 获取页码
+		// focused: state.get('header').get('focused')
+	}
 }
 
 const mapDispathToProps = (dispatch) => {
-  return {
-    handleInputFocus(list){
-    	(list.size === 0) && dispatch(actionCreators.getList());
-      dispatch(actionCreators.searchFocus());
-    },
-    handleInputBlur(){
-      dispatch(actionCreators.searchBlur());
-    },
-    handleMouseEnter(){
-    	dispatch(actionCreators.mouseEnter());
-    },
-    handleMouseLeave(){
-    	dispatch(actionCreators.mouseLeave());
-    },
-    handleChangePage(page, totalPage, spin){
-    	let originAngle = spin.style.transform.replace(/[^0-9]/ig, '');
-    	if(originAngle){
-    		originAngle = parseInt(originAngle, 10)
-    	}else {
-    		originAngle= 0
-    	}
-    	spin.style.transform = 'rotate('+ originAngle + 360 + 'deg)';
-    	if(page < totalPage){
-    		dispatch(actionCreators.changePage(page+1))
-    	}else{
-    		dispatch(actionCreators.changePage(1))
-    	}
-    }
-  } 
+	return {
+		handleInputFocus(list) {
+			(list.size === 0) && dispatch(actionCreators.getList());
+			dispatch(actionCreators.searchFocus());
+		},
+		handleInputBlur() {
+			dispatch(actionCreators.searchBlur());
+		},
+		handleMouseEnter() {
+			dispatch(actionCreators.mouseEnter());
+		},
+		handleMouseLeave() {
+			dispatch(actionCreators.mouseLeave());
+		},
+		handleChangePage(page, totalPage, spin) {
+			let originAngle = spin.style.transform.replace(/[^0-9]/ig, '');
+			if(originAngle) {
+				originAngle = parseInt(originAngle, 10)
+			} else {
+				originAngle = 0
+			}
+			spin.style.transform = 'rotate(' + originAngle + 360 + 'deg)';
+			if(page < totalPage) {
+				dispatch(actionCreators.changePage(page + 1))
+			} else {
+				dispatch(actionCreators.changePage(1))
+			}
+		}
+	}
 }
 
 export default connect(mapStateToProps, mapDispathToProps)(Header);
