@@ -19,10 +19,12 @@ export const HomeRight = styled.div`
 	width: 240px;
 	float: right;
 `
+// 专题  start
 export const TopicWrapper = styled.div`
 	overflow: hidden;
 	padding: 20px 0 10px 0;
 	margin-left: -18px;
+	border-bottom: 1px solid #dcdcdc;
 `
 export const TopicItem = styled.div`
 	float: left;
@@ -45,3 +47,34 @@ export const TopicItem = styled.div`
 		
 	}
 `
+// 专题  end
+
+//列表样式  start
+export const ListItem = styled.div`
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #dcdcdc;
+	.list-pic{
+		display: block;
+		width: 125px;
+		height: 100px;
+		float: right;
+		border-radius: 10px;
+	}
+`
+export const ListInfo = styled.div`
+	width: 500px;
+	float: left;
+	.title{
+		line-height: 27px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #333;
+	}
+	.desc{
+		line-height: 24px;
+		font-size: 13px;
+		color: #999;
+	}
+`
+//列表样式  end
