@@ -1,10 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import { connect } from 'react-redux'; // 链接rudux数据
 import { 
 	TopicWrapper,
 	TopicItem
 } from '../style';
-class Topic extends Component {
+class Topic extends PureComponent {
 	render() {
 		const { list } = this.props;
 		return (

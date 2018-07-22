@@ -16,7 +16,7 @@ export const HomeLeft = styled.div`
 	}
 `
 export const HomeRight = styled.div`
-	width: 240px;
+	width: 280px;
 	float: right;
 `
 // 专题  start
@@ -78,3 +78,45 @@ export const ListInfo = styled.div`
 	}
 `
 //列表样式  end
+
+//首页推荐列表 start
+export const RecommendWrapper = styled.div`
+	margin: 30px 0;
+	width: 280px;
+`
+export const RecommendItem = styled.div`
+	width: 280px;
+	height: 50px;
+	background: url(${(props)=> props.imgUrl}) no-repeat center;
+	background-size: contain; 
+`
+//首页推荐列表 end
+
+// 加载更多 start
+export const LoadMore = styled.div`
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 30px 0;
+	background: #a5a5a5;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+`
+// 加载更多end
+
+// 回到顶部 start
+export const BackTop = styled.div`
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	cursor: pointer;
+`
+// 回到顶部 end

@@ -1,29 +1,33 @@
-import React, { Component, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-
+import { actionCreators } from '../store';
+import { Link } from 'react-router-dom';
 import { 
 	ListItem,
-	ListInfo
+	ListInfo,
+	LoadMore
 } from '../style';
 
-class List extends Component {
+class List extends PureComponent {
 	render() {
-		const { list } = this.props;
+		const { list, getMoreList} = this.props;
 		return (
-			<Fragment>
+			<div>
 				{
-					list.map((item) => (
-						<ListItem key={item.get('id')}>
+					list.map((item, index) => (
+						<Link key={index} to='/detail'>
+						<ListItem>
 							<img className='list-pic' src={item.get('imgUrl')} alt="" />
 							<ListInfo>
 								<h3 className='title'>{item.get('title')}</h3>
 								<p className='desc'>{item.get('desc')}</p>
 							</ListInfo>
 						</ListItem>
+						</Link>
 					))
 				}
-				
-			</Fragment>
+				<LoadMore onClick={getMoreList}>更多文字</LoadMore>
+			</div>
 		)
 	}
 }
@@ -31,4 +35,10 @@ const mapstateToProps = (state) => ({
 	list: state.getIn(['home', 'articleList'])
 })
 
-export default connect(mapstateToProps, null)(List);
+const mapDispatch = (dispatch) => ({
+	getMoreList() {
+		dispatch(actionCreators.getMoreList())
+	}
+})
+
+export default connect(mapstateToProps, mapDispatch)(List);
